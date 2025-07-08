@@ -1,6 +1,6 @@
 //
-//  eisteinApp.swift
-//  eistein
+//  FrankeinsteinApp.swift
+//  Frankeinstein
 //
 //  Created by Fabio Nogueira de Almeida on 10/06/25.
 //
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct eisteinApp: App {
+struct FrankeinsteinApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DashboardView()
         }
     }
 }

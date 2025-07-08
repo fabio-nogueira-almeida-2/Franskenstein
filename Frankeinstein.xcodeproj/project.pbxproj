@@ -12,37 +12,52 @@
 			containerPortal = 6947DE392DF8AAC2007DCEA5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6947DE402DF8AAC2007DCEA5;
-			remoteInfo = eistein;
+			remoteInfo = Frankeinstein;
 		};
 		6947DE5D2DF8AAC4007DCEA5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6947DE392DF8AAC2007DCEA5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6947DE402DF8AAC2007DCEA5;
-			remoteInfo = eistein;
+			remoteInfo = Frankeinstein;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		69468D502E19F54A0072E4D9 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		6947DE412DF8AAC2007DCEA5 /* eistein.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eistein.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6947DE522DF8AAC4007DCEA5 /* eisteinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eisteinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6947DE5C2DF8AAC4007DCEA5 /* eisteinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eisteinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69468D3B2E19F5490072E4D9 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		69468D3D2E19F5490072E4D9 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		6947DE412DF8AAC2007DCEA5 /* Frankeinstein.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frankeinstein.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6947DE522DF8AAC4007DCEA5 /* FrankeinsteinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrankeinsteinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6947DE5C2DF8AAC4007DCEA5 /* FrankeinsteinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrankeinsteinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		6947DE432DF8AAC2007DCEA5 /* eistein */ = {
+		6947DE432DF8AAC2007DCEA5 /* Frankeinstein */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = eistein;
+			path = Frankeinstein;
 			sourceTree = "<group>";
 		};
-		6947DE552DF8AAC4007DCEA5 /* eisteinTests */ = {
+		6947DE552DF8AAC4007DCEA5 /* FrankeinsteinTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = eisteinTests;
+			path = FrankeinsteinTests;
 			sourceTree = "<group>";
 		};
-		6947DE5F2DF8AAC4007DCEA5 /* eisteinUITests */ = {
+		6947DE5F2DF8AAC4007DCEA5 /* FrankeinsteinUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = eisteinUITests;
+			path = FrankeinsteinUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -72,12 +87,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69468D3A2E19F5490072E4D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69468D3B2E19F5490072E4D9 /* WidgetKit.framework */,
+				69468D3D2E19F5490072E4D9 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6947DE382DF8AAC2007DCEA5 = {
 			isa = PBXGroup;
 			children = (
-				6947DE432DF8AAC2007DCEA5 /* eistein */,
-				6947DE552DF8AAC4007DCEA5 /* eisteinTests */,
-				6947DE5F2DF8AAC4007DCEA5 /* eisteinUITests */,
+				6947DE432DF8AAC2007DCEA5 /* Frankeinstein */,
+				6947DE552DF8AAC4007DCEA5 /* FrankeinsteinTests */,
+				6947DE5F2DF8AAC4007DCEA5 /* FrankeinsteinUITests */,
+				69468D3A2E19F5490072E4D9 /* Frameworks */,
 				6947DE422DF8AAC2007DCEA5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +110,9 @@
 		6947DE422DF8AAC2007DCEA5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6947DE412DF8AAC2007DCEA5 /* eistein.app */,
-				6947DE522DF8AAC4007DCEA5 /* eisteinTests.xctest */,
-				6947DE5C2DF8AAC4007DCEA5 /* eisteinUITests.xctest */,
+				6947DE412DF8AAC2007DCEA5 /* Frankeinstein.app */,
+				6947DE522DF8AAC4007DCEA5 /* FrankeinsteinTests.xctest */,
+				6947DE5C2DF8AAC4007DCEA5 /* FrankeinsteinUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,31 +120,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6947DE402DF8AAC2007DCEA5 /* eistein */ = {
+		6947DE402DF8AAC2007DCEA5 /* Frankeinstein */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6947DE662DF8AAC4007DCEA5 /* Build configuration list for PBXNativeTarget "eistein" */;
+			buildConfigurationList = 6947DE662DF8AAC4007DCEA5 /* Build configuration list for PBXNativeTarget "Frankeinstein" */;
 			buildPhases = (
 				6947DE3D2DF8AAC2007DCEA5 /* Sources */,
 				6947DE3E2DF8AAC2007DCEA5 /* Frameworks */,
 				6947DE3F2DF8AAC2007DCEA5 /* Resources */,
+				69468D502E19F54A0072E4D9 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				6947DE432DF8AAC2007DCEA5 /* eistein */,
+				6947DE432DF8AAC2007DCEA5 /* Frankeinstein */,
 			);
-			name = eistein;
+			name = Frankeinstein;
 			packageProductDependencies = (
 			);
-			productName = eistein;
-			productReference = 6947DE412DF8AAC2007DCEA5 /* eistein.app */;
+			productName = Frankeinstein;
+			productReference = 6947DE412DF8AAC2007DCEA5 /* Frankeinstein.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6947DE512DF8AAC4007DCEA5 /* eisteinTests */ = {
+		6947DE512DF8AAC4007DCEA5 /* FrankeinsteinTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6947DE692DF8AAC4007DCEA5 /* Build configuration list for PBXNativeTarget "eisteinTests" */;
+			buildConfigurationList = 6947DE692DF8AAC4007DCEA5 /* Build configuration list for PBXNativeTarget "FrankeinsteinTests" */;
 			buildPhases = (
 				6947DE4E2DF8AAC4007DCEA5 /* Sources */,
 				6947DE4F2DF8AAC4007DCEA5 /* Frameworks */,
@@ -131,18 +157,18 @@
 				6947DE542DF8AAC4007DCEA5 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				6947DE552DF8AAC4007DCEA5 /* eisteinTests */,
+				6947DE552DF8AAC4007DCEA5 /* FrankeinsteinTests */,
 			);
-			name = eisteinTests;
+			name = FrankeinsteinTests;
 			packageProductDependencies = (
 			);
-			productName = eisteinTests;
-			productReference = 6947DE522DF8AAC4007DCEA5 /* eisteinTests.xctest */;
+			productName = FrankeinsteinTests;
+			productReference = 6947DE522DF8AAC4007DCEA5 /* FrankeinsteinTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6947DE5B2DF8AAC4007DCEA5 /* eisteinUITests */ = {
+		6947DE5B2DF8AAC4007DCEA5 /* FrankeinsteinUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6947DE6C2DF8AAC4007DCEA5 /* Build configuration list for PBXNativeTarget "eisteinUITests" */;
+			buildConfigurationList = 6947DE6C2DF8AAC4007DCEA5 /* Build configuration list for PBXNativeTarget "FrankeinsteinUITests" */;
 			buildPhases = (
 				6947DE582DF8AAC4007DCEA5 /* Sources */,
 				6947DE592DF8AAC4007DCEA5 /* Frameworks */,
@@ -154,13 +180,13 @@
 				6947DE5E2DF8AAC4007DCEA5 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				6947DE5F2DF8AAC4007DCEA5 /* eisteinUITests */,
+				6947DE5F2DF8AAC4007DCEA5 /* FrankeinsteinUITests */,
 			);
-			name = eisteinUITests;
+			name = FrankeinsteinUITests;
 			packageProductDependencies = (
 			);
-			productName = eisteinUITests;
-			productReference = 6947DE5C2DF8AAC4007DCEA5 /* eisteinUITests.xctest */;
+			productName = FrankeinsteinUITests;
+			productReference = 6947DE5C2DF8AAC4007DCEA5 /* FrankeinsteinUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6947DE3C2DF8AAC2007DCEA5 /* Build configuration list for PBXProject "eistein" */;
+			buildConfigurationList = 6947DE3C2DF8AAC2007DCEA5 /* Build configuration list for PBXProject "Frankeinstein" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +226,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6947DE402DF8AAC2007DCEA5 /* eistein */,
-				6947DE512DF8AAC4007DCEA5 /* eisteinTests */,
-				6947DE5B2DF8AAC4007DCEA5 /* eisteinUITests */,
+				6947DE402DF8AAC2007DCEA5 /* Frankeinstein */,
+				6947DE512DF8AAC4007DCEA5 /* FrankeinsteinTests */,
+				6947DE5B2DF8AAC4007DCEA5 /* FrankeinsteinUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		6947DE542DF8AAC4007DCEA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6947DE402DF8AAC2007DCEA5 /* eistein */;
+			target = 6947DE402DF8AAC2007DCEA5 /* Frankeinstein */;
 			targetProxy = 6947DE532DF8AAC4007DCEA5 /* PBXContainerItemProxy */;
 		};
 		6947DE5E2DF8AAC4007DCEA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6947DE402DF8AAC2007DCEA5 /* eistein */;
+			target = 6947DE402DF8AAC2007DCEA5 /* Frankeinstein */;
 			targetProxy = 6947DE5D2DF8AAC4007DCEA5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -388,10 +414,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = eistein/eistein.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Frankeinstein/Frankeinstein.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"eistein/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Frankeinstein/Preview Content\"";
+				DEVELOPMENT_TEAM = 46725R5H82;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -409,7 +436,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.eistein;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.Frankeinstein;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -425,10 +452,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = eistein/eistein.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Frankeinstein/Frankeinstein.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"eistein/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Frankeinstein/Preview Content\"";
+				DEVELOPMENT_TEAM = 46725R5H82;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -446,7 +474,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.eistein;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.Frankeinstein;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -467,14 +495,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.eisteinTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.FrankeinsteinTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eistein.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/eistein";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frankeinstein.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Frankeinstein";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
@@ -489,14 +517,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.eisteinTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.FrankeinsteinTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eistein.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/eistein";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frankeinstein.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Frankeinstein";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
@@ -510,14 +538,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.eisteinUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.FrankeinsteinUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = eistein;
+				TEST_TARGET_NAME = Frankeinstein;
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
@@ -531,14 +559,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.eisteinUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumup.FrankeinsteinUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = eistein;
+				TEST_TARGET_NAME = Frankeinstein;
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
@@ -546,7 +574,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6947DE3C2DF8AAC2007DCEA5 /* Build configuration list for PBXProject "eistein" */ = {
+		6947DE3C2DF8AAC2007DCEA5 /* Build configuration list for PBXProject "Frankeinstein" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6947DE642DF8AAC4007DCEA5 /* Debug */,
@@ -555,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6947DE662DF8AAC4007DCEA5 /* Build configuration list for PBXNativeTarget "eistein" */ = {
+		6947DE662DF8AAC4007DCEA5 /* Build configuration list for PBXNativeTarget "Frankeinstein" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6947DE672DF8AAC4007DCEA5 /* Debug */,
@@ -564,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6947DE692DF8AAC4007DCEA5 /* Build configuration list for PBXNativeTarget "eisteinTests" */ = {
+		6947DE692DF8AAC4007DCEA5 /* Build configuration list for PBXNativeTarget "FrankeinsteinTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6947DE6A2DF8AAC4007DCEA5 /* Debug */,
@@ -573,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6947DE6C2DF8AAC4007DCEA5 /* Build configuration list for PBXNativeTarget "eisteinUITests" */ = {
+		6947DE6C2DF8AAC4007DCEA5 /* Build configuration list for PBXNativeTarget "FrankeinsteinUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6947DE6D2DF8AAC4007DCEA5 /* Debug */,

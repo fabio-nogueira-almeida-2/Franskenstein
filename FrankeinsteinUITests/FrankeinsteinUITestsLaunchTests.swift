@@ -1,13 +1,13 @@
 //
-//  eisteinUITestsLaunchTests.swift
-//  eisteinUITests
+//  FrankeinsteinUITestsLaunchTests.swift
+//  FrankeinsteinUITests
 //
 //  Created by Fabio Nogueira de Almeida on 10/06/25.
 //
 
 import XCTest
 
-final class eisteinUITestsLaunchTests: XCTestCase {
+final class FrankeinsteinUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
