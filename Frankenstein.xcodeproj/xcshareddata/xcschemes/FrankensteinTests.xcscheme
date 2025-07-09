@@ -20,9 +20,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6947DE512DF8AAC4007DCEA5"
-               BuildableName = "FrankeinsteinTests.xctest"
-               BlueprintName = "FrankeinsteinTests"
-               ReferencedContainer = "container:Frankeinstein.xcodeproj">
+                           BuildableName = "FrankensteinTests.xctest"
+            BlueprintName = "FrankensteinTests"
+            ReferencedContainer = "container:Frankenstein.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -41,9 +41,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6947DE402DF8AAC2007DCEA5"
-            BuildableName = "Frankeinstein.app"
-            BlueprintName = "Frankeinstein"
-            ReferencedContainer = "container:Frankeinstein.xcodeproj">
+            BuildableName = "Frankenstein.app"
+            BlueprintName = "Frankenstein"
+            ReferencedContainer = "container:Frankenstein.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>

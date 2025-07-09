@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6947DE402DF8AAC2007DCEA5"
-               BuildableName = "Frankeinstein.app"
-               BlueprintName = "Frankeinstein"
-               ReferencedContainer = "container:Frankeinstein.xcodeproj">
+               BuildableName = "Frankenstein.app"
+               BlueprintName = "Frankenstein"
+               ReferencedContainer = "container:Frankenstein.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6947DE402DF8AAC2007DCEA5"
-            BuildableName = "Frankeinstein.app"
-            BlueprintName = "Frankeinstein"
-            ReferencedContainer = "container:Frankeinstein.xcodeproj">
+            BuildableName = "Frankenstein.app"
+            BlueprintName = "Frankenstein"
+            ReferencedContainer = "container:Frankenstein.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6947DE402DF8AAC2007DCEA5"
-            BuildableName = "Frankeinstein.app"
-            BlueprintName = "Frankeinstein"
-            ReferencedContainer = "container:Frankeinstein.xcodeproj">
+            BuildableName = "Frankenstein.app"
+            BlueprintName = "Frankenstein"
+            ReferencedContainer = "container:Frankenstein.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

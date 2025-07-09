@@ -1,13 +1,13 @@
 //
-//  FrankeinsteinUITests.swift
-//  FrankeinsteinUITests
+//  FrankensteinUITests.swift
+//  FrankensteinUITests
 //
 //  Created by Fabio Nogueira de Almeida on 10/06/25.
 //
 
 import XCTest
 
-final class FrankeinsteinUITests: XCTestCase {
+final class FrankensteinUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,13 +1,13 @@
 //
-//  FrankeinsteinUITestsLaunchTests.swift
-//  FrankeinsteinUITests
+//  FrankensteinUITestsLaunchTests.swift
+//  FrankensteinUITests
 //
 //  Created by Fabio Nogueira de Almeida on 10/06/25.
 //
 
 import XCTest
 
-final class FrankeinsteinUITestsLaunchTests: XCTestCase {
+final class FrankensteinUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
