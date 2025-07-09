@@ -57,7 +57,7 @@ struct CoffeeView: View {
             result = "Proporção é de 1:\(waterValue/coffeeValue)"
             
         } else if let coffeeValue, let formulaTotalValue {
-            result = "Proporção 1:\(coffeeValue/formulaTotalValue)\nVocê precisa de \(coffeeValue*formulaTotalValue) ml de água"
+            result = "Proporção 1:\(formulaTotalValue)\nVocê precisa de \(coffeeValue*formulaTotalValue) ml de água"
         } else {
             result = "Informe ao menos dois campos para calcular a proporção"
         }
@@ -133,7 +133,9 @@ extension CoffeeView {
                                 focusedField = .formula
                             }
                         TextField("", text: $formula)
+#if os(iOS)
                             .keyboardType(.numberPad)
+#endif
                             .multilineTextAlignment(.trailing)
                             .foregroundStyle(.white)
                             .focused($focusedField, equals: .formula)
@@ -148,7 +150,9 @@ extension CoffeeView {
                                 focusedField = .water
                             }
                         TextField("", text: $water)
+#if os(iOS)
                             .keyboardType(.numberPad)
+#endif
                             .multilineTextAlignment(.trailing)
                             .foregroundStyle(.white)
                             .focused($focusedField, equals: .water)
@@ -163,7 +167,9 @@ extension CoffeeView {
                                 focusedField = .coffee
                             }
                         TextField("", text: $coffee)
+#if os(iOS)
                             .keyboardType(.numberPad)
+#endif
                             .multilineTextAlignment(.trailing)
                             .foregroundStyle(.white)
                             .focused($focusedField, equals: .coffee)

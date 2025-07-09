@@ -118,7 +118,10 @@ extension GasView {
                         value: $etanolValue,
                         format: .currency(code: "BRL")
                     )
+#if os(iOS)
                     .keyboardType(.decimalPad)
+#endif
+
                     .foregroundStyle(.white)
                     .multilineTextAlignment(.trailing)
                     .focused($focusedField, equals: .etanol)
@@ -141,7 +144,9 @@ extension GasView {
                         value: $gasolineValue,
                         format: .currency(code: "BRL")
                     )
+#if os(iOS)
                     .keyboardType(.decimalPad)
+#endif
                     .foregroundStyle(.white)
                     .multilineTextAlignment(.trailing)
                     .focused($focusedField, equals: .gasoline)

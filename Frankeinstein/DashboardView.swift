@@ -23,7 +23,16 @@ struct DashboardView: View {
                     }
             }
         }
+#if os(iOS)
         .toolbarBackground(.visible, for: .tabBar)
+#elseif os(macOS)
+        .frame(width: 450, height: 600)
+        .toolbar {
+            ToolbarItem(placement: .automatic) {
+                
+            }
+        }
+#endif
         .accentColor(.white)
     }
 }
