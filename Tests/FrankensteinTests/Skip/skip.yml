@@ -1,0 +1,9 @@
+name: FrankensteinTests
+module: FrankensteinTests
+version: 1.0.0
+
+dependencies:
+  - SkipBridge
+  - SkipFoundation
+  - SkipLib
+  - SkipTest 
